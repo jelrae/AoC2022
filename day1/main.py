@@ -25,7 +25,6 @@ print('Elf ' + str(total_calories.argmax()) + ' has the most calories with ' +
             str(int(total_calories[total_calories.argmax()])) + ' calories.')
 
 # Detemrine the calories by the top n elves
-
 n = 3
 top_n = total_calories.argsort()[-n:]
 
